@@ -5,28 +5,29 @@
     </div>
     <div id="footer" class="mt-2">
       <div class="social-icons-wrapper">
-        <a href="https://www.facebook.com/officalVuejsIsrael/" target="_blank" title="Our Facebook">
-          <fa :icon="['fab', 'facebook-square']" class="social__icon"/>
-        </a>
-        <a href="https://www.twitter.com/@VueJSIsrael" target="_blank" title="Our Twitter">
+       
+        <a href="https://twitter.com/VuejsNg" target="_blank" title="Our Twitter">
           <fa :icon="['fab', 'twitter-square']" class="social__icon"/>
         </a>
-        <a href="https://www.meetup.com/vue-js/" target="_blank" title="Our Meetup group">
+        <a href="https://www.meetup.com/vuejs-nigeria/" target="_blank" title="Our Meetup group">
           <fa :icon="['fab', 'meetup']" class="social__icon"/>
         </a>
-        <a href="https://www.linkedin.com/company/vuejsisrael-meetups/" target="_blank" title="Our Linkedin">
-          <fa :icon="['fab', 'linkedin']" class="social__icon"/>
-        </a>
-        <a href="https://www.instagram.com/vuejsisrael/" target="_blank" title="Our Instagram">
-          <fa :icon="['fab', 'instagram']" class="social__icon"/>
-        </a>
-        <a href="https://www.youtube.com/channel/UC7Ne4vqQa7nldgA0o1fbqKg" target="_blank" title="Our Youtube">
+
+        <a href="https://www.youtube.com/channel/UCjswIt8G9_zlAnNo47u98BQ" target="_blank" title="Our Youtube">
           <fa :icon="['fab', 'youtube-square']" class="social__icon"/>
+        </a>
+
+         <a href="https://medium.com/@vuejsnigeria" target="_blank" title="Our Medium">
+          <fa :icon="['fab', 'medium']" class="social__icon"/>
+        </a>
+
+        <a href="https://dev.to/vuejsng" target="_blank" title="Our Dev.to">
+          <fa :icon="['fab', 'dev']" class="social__icon"/>
         </a>
       </div>
     </div>
     <div class="credits">
-      Built with ♥ by <a href="https://mayashavin.com/" title="Maya Shavin">Maya</a> and <a href="https://www.dimshik.com/" title="Dima Vishnevetsky">Dima</a> using <a href="https://nuxtjs.org/" title="Nuxt.js">Nuxt.js</a>
+    Thanks to  <a href="https://mayashavin.com/" title="Maya Shavin">Maya</a> and <a href="https://www.dimshik.com/" title="Dima Vishnevetsky">Dima</a> who built the original site for  <a href="https://www.vuejsisrael.com/" title="vuejs israel"> Vue.js Israel </a> ♥
     </div>
   </div>
 </template>

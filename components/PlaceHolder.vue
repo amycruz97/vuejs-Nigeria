@@ -11,7 +11,7 @@
       </g>
     </svg>
     <p class="text">
-      <span class="text-vue">Vue</span><span class="text-dot">.</span><span class="text-js">js</span><span class="text-israel">&nbsp;Israel</span>
+      <span class="text-vue">Vue</span><span class="text-dot">.</span><span class="text-js">js</span><span class="text-nigeria">&nbsp;Nigeria</span>
     </p>
   </div>
 </template>
@@ -59,12 +59,12 @@ body {
 .text span {
   display: inline-block;
 }
-.text-israel {
-  --text-width: 120px;
+.text-nigeria {
+  --text-width: 150px;
   overflow: hidden;
   width: 0;
   color: white;
-  animation: israel-text 8s linear forwards infinite;
+  animation: nigeria-text 8s linear forwards infinite;
   animation-delay: 250ms;
 }
 .text-vue,
@@ -152,7 +152,7 @@ body {
     stroke: var(--outer-white-color);
   }
 }
-@keyframes israel-text {
+@keyframes nigeria-text {
   0% {
     width: 0;
   }
